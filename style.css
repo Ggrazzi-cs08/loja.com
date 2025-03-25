@@ -1,0 +1,151 @@
+/* Importa a fonte Chakra Petch do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* Estiliza o corpo da página */
+body {
+    font-family: "Chakra Petch", sans-serif;
+    background-color: #F4F6F9; /* Fundo mais suave */
+    color: #333; /* Cor de texto mais suave */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #ebd7ea; 
+    color: white;
+    text-align: center;
+    padding: 1.5rem 2rem;
+    box-shadow: #e1c4e0;
+}
+
+/* Estiliza a logo */
+#logo {
+    position: absolute;
+    right: 2rem;
+    width: 150px;  /* Define a largura da logo */
+    height: auto;   /* Mantém a proporção da logo */
+    margin-bottom: 1rem;  /* Espaçamento entre a logo e o título */
+}
+
+
+
+/* Estiliza a barra de pesquisa */
+section input {
+    width: 100%;
+    max-width: 30rem;
+    padding: 1rem;
+    margin: 1rem 0;
+    border: 2px solid #8f708e; 
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+section input:focus {
+    border-color: #ccabcb; 
+}
+section button {
+    padding: 1rem 2rem;
+    background-color: #dcbadb; /* Cor do botão */
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+section button:hover {
+    background-color: #dbdcba /* Cor ao passar o mouse */
+}
+
+/* Estiliza a seção de resultados de pesquisa */
+.resultados-pesquisa {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    width: 90%;
+    max-width: 1200px;
+    margin-top: 3rem;
+}
+
+/* Estiliza cada item de resultado */
+.item-resultado {
+    background-color: #ffffff;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+/* Efeito de hover nos itens de resultado */
+.item-resultado:hover {
+    transform: translateY(-10px); /* Levanta o item */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagem dos produtos */
+.item-resultado img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Título do produto */
+.item-resultado h2 {
+    font-size: 1.8rem;
+    color: #F4F6F9;
+    margin: 1rem 0;
+}
+
+/* Descrição do produto */
+.item-resultado p.descricao-meta {
+    font-size: 1rem;
+    color: #45474B;
+    margin: 0.5rem 0;
+    line-height: 1.5;
+}
+
+/* Link "Mais Informações" */
+.item-resultado a {
+    text-decoration: none;
+    color:#725471;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+.item-resultado a:hover {
+    color: #8f708e;
+}
+
+/* Rodapé */
+footer {
+    background-color: #ebd7ea;
+    color: #8f708e;
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: auto;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
