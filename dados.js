@@ -43,12 +43,6 @@ let dados = [
         imagem: "img/Bolo de Maracujá com Coco e Cobertura Cremosa de Leite Condensado Ingredientes_ Massa do Bolo_ 3 ovos 1_2 xícara de suco de maracujá (preferencialmente fresco) 1_2 xícara de leite de coco 1 xícara de açúcar .jpg"
     },
     {   
-        nome: "Bolo de maracujá",
-        descricao: "Feito com a polpa fresca do maracujá, esse bolo leva ingredientes simples e um toque de carinho. A massa fofinha é perfumada com o sabor cítrico da fruta, criando uma combinação deliciosa e refrescante!",
-        link: "",
-        imagem: "img/Bolo de Maracujá com Coco e Cobertura Cremosa de Leite Condensado Ingredientes_ Massa do Bolo_ 3 ovos 1_2 xícara de suco de maracujá (preferencialmente fresco) 1_2 xícara de leite de coco 1 xícara de açúcar .jpg"
-    },
-    {   
         nome: "Bolo de banana",
         descricao: "O Bolo de Banana é uma receita deliciosa e super simples, perfeita para aproveitar bananas maduras. Ele fica fofinho, saboroso e é uma excelente opção de lanche ou sobremesa.",
         link: "",
