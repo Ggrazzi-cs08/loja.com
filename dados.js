@@ -42,4 +42,40 @@ let dados = [
         link: "",
         imagem: "img/Bolo de Maracujá com Coco e Cobertura Cremosa de Leite Condensado Ingredientes_ Massa do Bolo_ 3 ovos 1_2 xícara de suco de maracujá (preferencialmente fresco) 1_2 xícara de leite de coco 1 xícara de açúcar .jpg"
     },
+    {   
+        nome: "Bolo de maracujá",
+        descricao: "Feito com a polpa fresca do maracujá, esse bolo leva ingredientes simples e um toque de carinho. A massa fofinha é perfumada com o sabor cítrico da fruta, criando uma combinação deliciosa e refrescante!",
+        link: "",
+        imagem: "img/Bolo de Maracujá com Coco e Cobertura Cremosa de Leite Condensado Ingredientes_ Massa do Bolo_ 3 ovos 1_2 xícara de suco de maracujá (preferencialmente fresco) 1_2 xícara de leite de coco 1 xícara de açúcar .jpg"
+    },
+    {   
+        nome: "Bolo de banana",
+        descricao: "O Bolo de Banana é uma receita deliciosa e super simples, perfeita para aproveitar bananas maduras. Ele fica fofinho, saboroso e é uma excelente opção de lanche ou sobremesa.",
+        link: "",
+        imagem: "img/Banana cake 🍰.jfif"
+    },
+    {   
+        nome: "Bolo de churros",
+        descricao: "O Bolo de Churros é uma combinação perfeita de um bolo fofinho com o sabor irresistível de churros. Ele traz a delícia da canela com o toque doce do açúcar, criando uma sobremesa maravilhosa e que agrada a todos.",
+        link: "",
+        imagem: "img/bolo de churros.jfif"
+    },
+    {   
+        nome: "Bolo de abacaxi",
+        descricao: "O Bolo de Abacaxi é uma sobremesa deliciosa e refrescante, que combina a doçura do abacaxi com uma massa fofinha e leve. Ideal para os dias quentes ou quando se quer um bolo com um sabor tropical.",
+        link: "",
+        imagem: "img/Delicias da Cícera.jfif"
+    },
+    {
+        nome: "Bolo floresta negra",
+        descricao:"Bolo Floresta Negra é uma sobremesa sofisticada, inspirada no famoso prato alemão. Com camadas de bolo de chocolate, cerejas e chantilly, ele é perfeito para quem adora uma combinação de sabores doces e frutados",
+        link:"",
+        imagem: "img/Bolo Floresta Negra !!!.jfif"
+    },
+    {
+        nome: "Bolo prestígio",
+        descricao:"O Bolo Prestígio é inspirado no famoso doce de mesmo nome, que combina o sabor do coco com o chocolate, criando uma sobremesa irresistível e saborosa",
+        link:"",
+        imagem: "img/Bolo Naked Cake Prestigio.jfif"
+    }
 ];
